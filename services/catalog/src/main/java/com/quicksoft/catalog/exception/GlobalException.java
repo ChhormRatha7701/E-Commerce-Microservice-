@@ -1,5 +1,7 @@
-package com.quicksoft.customer.exception;
+package com.quicksoft.catalog.exception;
 
+import jakarta.persistence.EntityNotFoundException;
+import org.hibernate.action.internal.EntityActionVetoException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -14,19 +16,19 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalException {
 
-    @ExceptionHandler(NotFoundException.class)
-    public ProblemDetail handleNotFoundException(BadRequestException exp) {
+    @ExceptionHandler(ProductPurchaseException.class)
+    public ProblemDetail handleException(ProductPurchaseException exp) {
          ProblemDetail problemDetail = ProblemDetail.forStatusAndDetail(
-                 HttpStatus.NOT_FOUND,
+                 HttpStatus.BAD_REQUEST,
                  exp.getMessage()
          );
-         problemDetail.setTitle("Not Found");
+         problemDetail.setTitle("Bad Request");
          problemDetail.setProperty("datetime", LocalDateTime.now());
          return problemDetail;
     }
 
-    @ExceptionHandler(BadRequestException.class)
-    public ProblemDetail handleBadRequestException(BadRequestException exp) {
+    @ExceptionHandler(EntityNotFoundException.class)
+    public ProblemDetail handleException(EntityNotFoundException exp) {
         ProblemDetail problemDetail = ProblemDetail.forStatusAndDetail(
                 HttpStatus.BAD_REQUEST,
                 exp.getMessage()

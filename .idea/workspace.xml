@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db22f631-e38e-4783-b8dd-d0f526ac4bf5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/customer-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/discovery-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/discovery-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/catalog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/quicksoft/customer/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/quicksoft/customer/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/services/catalog/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/catalog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/services/catalog/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/services/catalog/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/catalog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/quicksoft/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/catalog/src/main/java/com/quicksoft/catalog/CatalogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/test/java/com/quicksoft/product/ProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/catalog/src/test/java/com/quicksoft/catalog/ProductApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,33 +67,54 @@
   "keyToString": {
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth0": "15",
+    "RequestMappingsPanelWidth1": "15",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CatalogApplication.executor": "Run",
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.CustomerApplication.executor": "Run",
     "Spring Boot.DiscoveryApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ratana/Downloads/HRD/Spring/Advance/E-commerce",
+    "last_opened_file_path": "/Users/ratana/Downloads/HRD/Spring/Advance/E-commerce/services/product/src/main/java/com/quicksoft/product",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reactor",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL",
+      "CassandraQL"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.quicksoft.catalog.exception" />
+      <recent name="com.quicksoft.catalog.product" />
+      <recent name="com.quicksoft.catalog.category" />
       <recent name="com.quicksoft.customer.exception" />
       <recent name="com.quicksoft.customer.mapper" />
-      <recent name="com.quicksoft.customer.repository" />
-      <recent name="com.quicksoft.customer.service" />
-      <recent name="com.quicksoft.customer.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/product/src/main/java/com/quicksoft/product" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.quicksoft.catalog.exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,7 +126,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.CatalogApplication">
+    <configuration name="CatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="catalog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quicksoft.catalog.CatalogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.quicksoft.configserver.ConfigServerApplication" />
@@ -121,6 +159,7 @@
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.CatalogApplication" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -144,7 +183,10 @@
       <workItem from="1722144744610" duration="406000" />
       <workItem from="1722157014967" duration="600000" />
       <workItem from="1722177038210" duration="10284000" />
-      <workItem from="1722387326914" duration="7273000" />
+      <workItem from="1722387326914" duration="14909000" />
+      <workItem from="1722489423914" duration="1029000" />
+      <workItem from="1722505300896" duration="31000" />
+      <workItem from="1722521837566" duration="13310000" />
     </task>
     <servers />
   </component>
